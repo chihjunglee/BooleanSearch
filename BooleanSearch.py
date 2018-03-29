@@ -1,9 +1,7 @@
 import pandas as pd
 import re
 import argparse
-import time
 from nltk import ngrams
-import pickle as pk
 
 def cut_word(source):
     og_string = source['content']
@@ -110,8 +108,6 @@ def search(query_file):
             output.write(result_string)
 
 if __name__ == '__main__':
-    import argparse
-
     parser = argparse.ArgumentParser()
     parser.add_argument('--source',
                        default='source.csv',
