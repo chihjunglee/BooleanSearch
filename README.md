@@ -1,3 +1,3 @@
 # BooleanSearch
 
-http://localhost:8888/notebooks/BooleanSearch_README.ipynb
+https://github.com/ElmoLee822/BooleanSearch/blob/master/BooleanSearch_README.ipynb
